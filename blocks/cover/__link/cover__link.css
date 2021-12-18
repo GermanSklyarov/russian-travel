@@ -1,0 +1,14 @@
+.cover__link {
+  display: block;
+  margin: 0 auto;
+  max-width: fit-content;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1279px) {
+  .cover__link {
+    width: 100%;
+    max-width: 100%;
+  }
+}
