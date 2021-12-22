@@ -24,8 +24,10 @@
     <section class="lead">
       <h1 class="lead__title">Путешествия по России</h1>
       <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-      <img class="lead__image" src="images/lead-polka.jpg" alt="человек в поезде">
-      <p class="lead__caption">ваша полка — верхняя</p>
+      <figure class="lead__figure">
+        <img class="lead__image" src="images/lead-polka.jpg" alt="человек в поезде">
+        <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+      </figure>
     </section>
     <section class="intro">
       <h2 class="intro__title">Чего мы там не видели?</h2>
@@ -39,26 +41,28 @@
         и
         описали некоторые интересные места, достойные вашего отпуска.</p>
       <ul class="intro__list">
-        <li>Часовых поясов 11</li>
-        <li>Объектов природного наследия ЮНЕСКО 12</li>
-        <li>Объектов культурного наследия ЮНЕСКО 16</li>
-        <li>Природных заповедников 105</li>
-        <li>Аэропортов 241</li>
+        <li>Часовых поясов <span class="intro__list-numbers">11</span></li>
+        <li>Объектов природного наследия ЮНЕСКО <span class="intro__list-numbers">12</span></li>
+        <li>Объектов культурного наследия ЮНЕСКО <span class="intro__list-numbers">16</span></li>
+        <li>Природных заповедников <span class="intro__list-numbers">105</span></li>
+        <li>Аэропортов <span class="intro__list-numbers">241</span></li>
       </ul>
     </section>
-    <section class="photo-grid">
-      <img class="photo-grid__item" src="images/photo-grid-train.jpg" alt="красивый пейзаж">
-      <img class="photo-grid__item" src="images/photo-grid-atharva-tulsi.jpg" alt="красивый пейзаж">
-      <img class="photo-grid__item" src="images/photo-grid-tuman.jpg" alt="красивый пейзаж">
-      <img class="photo-grid__item" src="images/photo-grid-sochi.jpg" alt="красивый пейзаж">
-      <img class="photo-grid__item" src="images/photo-grid-arisa.jpg" alt="красивый пейзаж">
-      <img class="photo-grid__item" src="images/photo-grid-baikal.jpg" alt="красивый пейзаж">
-      <img class="photo-grid__item" src="images/photo-grid-elbrus.jpg" alt="красивый пейзаж">
-      <img class="photo-grid__item" src="images/photo-grid-kondratiev.jpg" alt="красивый пейзаж">
-      <img class="photo-grid__item" src="images/photo-grid-kamchatka-1.jpg" alt="красивый пейзаж">
-      <img class="photo-grid__item" src="images/photo-grid-kamchatka-2.jpg" alt="красивый пейзаж">
-      <img class="photo-grid__item" src="images/photo-grid-baikal-2.jpg" alt="красивый пейзаж">
-      <img class="photo-grid__item" src="images/photo-grid-ergaki.jpg" alt="красивый пейзаж">
+    <section class="photos">
+      <ul class="photo-grid">
+        <li><img class="photo-grid__item" src="images/photo-grid-train.jpg" alt="красивый пейзаж"></li>
+        <li><img class="photo-grid__item" src="images/photo-grid-atharva-tulsi.jpg" alt="красивый пейзаж"></li>
+        <li><img class="photo-grid__item" src="images/photo-grid-tuman.jpg" alt="красивый пейзаж"></li>
+        <li><img class="photo-grid__item" src="images/photo-grid-sochi.jpg" alt="красивый пейзаж"></li>
+        <li><img class="photo-grid__item" src="images/photo-grid-arisa.jpg" alt="красивый пейзаж"></li>
+        <li><img class="photo-grid__item" src="images/photo-grid-baikal.jpg" alt="красивый пейзаж"></li>
+        <li><img class="photo-grid__item" src="images/photo-grid-elbrus.jpg" alt="красивый пейзаж"></li>
+        <li><img class="photo-grid__item" src="images/photo-grid-kondratiev.jpg" alt="красивый пейзаж"></li>
+        <li><img class="photo-grid__item" src="images/photo-grid-kamchatka-1.jpg" alt="красивый пейзаж"></li>
+        <li><img class="photo-grid__item" src="images/photo-grid-kamchatka-2.jpg" alt="красивый пейзаж"></li>
+        <li><img class="photo-grid__item" src="images/photo-grid-baikal-2.jpg" alt="красивый пейзаж"></li>
+        <li><img class="photo-grid__item" src="images/photo-grid-ergaki.jpg" alt="красивый пейзаж"></li>
+      </ul>
     </section>
     <section class="places">
       <article class="place">
@@ -164,33 +168,33 @@
     </section>
     <section class="cover">
       <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__link">
-        <div class="cover__background">
-          <h2 class="cover__title">До Байкала «на собаках»</h2>
-          <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
-            электричках.
-          </p>
-        </div>
+        <h2 class="cover__title">До Байкала «на собаках»</h2>
+        <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
+          электричках.
+        </p>
       </a>
     </section>
   </main>
   <footer class="footer">
-    <ul class="footer__links">
-      <li class="footer__list-item">
-        <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
-      </li>
-      <li class="footer__list-item">
-        <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
-      </li>
-      <li class="footer__list-item">
-        <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
-      </li>
-      <li class="footer__list-item">
-        <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
-      </li>
-      <li class="footer__list-item">
-        <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
-      </li>
-    </ul>
+    <nav>
+      <ul class="footer__links">
+        <li class="footer__list-item">
+          <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
+        </li>
+        <li class="footer__list-item">
+          <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
+        </li>
+        <li class="footer__list-item">
+          <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
+        </li>
+        <li class="footer__list-item">
+          <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
+        </li>
+        <li class="footer__list-item">
+          <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
+        </li>
+      </ul>
+    </nav>
     <p class="footer__copyright">&copy; 2021. Герман Скляров</p>
   </footer>
 </body>
